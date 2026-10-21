@@ -33,24 +33,24 @@ southbay-indoor-aq/
 
 ## Data
 
-### Raw data (not in this repository)
+### Raw data
 
-Raw sensor files are not committed due to size. Place the following files in `data/raw/` and update the `BASE` path in **Cell 3 (CONFIG)** of the notebook:
+Raw sensor files are included in `data/raw/`. Update the `BASE` path in **Cell 3 (CONFIG)** of the notebook to point to this folder.
 
 | File | Description |
 |------|-------------|
 | `export (21).csv` | AirGradient bulk export (all AG sensors) |
-| `MOD-00364-*.csv` | QuantAQ SIO |
-| `MOD-00365-*.csv` | QuantAQ TR Estuary |
-| `MOD-00366-*.csv` | QuantAQ SY |
-| `MOD-00367-*.csv` | QuantAQ Coast |
-| `MOD-00369-*.csv` | QuantAQ IB City Hall |
-| `MOD-00370-*.csv` | QuantAQ ML (mobile lab co-location) |
-| `MOD-00371-*.csv` | QuantAQ CABR |
-| `H2S - trailer-data-*.csv` | H₂S Teledyne T101, Nestor trailer |
-| `H2S - coast-data-*.csv` | H₂S Teledyne T101, coastal site |
-| `BulkExport-*.csv` | USGS Tijuana River stage (NWIS) |
-| `mlh_solar_extended.csv` | Mixing layer height + solar radiation |
+| `MOD-00364-a02bf9e1bc9041548768478c40eff5aa.csv` | QuantAQ SIO |
+| `MOD-00365-097157fe8eb6491c87812cb84da2e94b.csv` | QuantAQ TR Estuary |
+| `MOD-00366-5b0e9b2bc27641b78c4662cc05817f6b.csv` | QuantAQ SY |
+| `MOD-00367-1c28104a02aa4539b2f96d90bc6ad6a5.csv` | QuantAQ Coast |
+| `MOD-00369-b950720ea2c44a7fa7afde050f5ed26d.csv` | QuantAQ IB City Hall |
+| `MOD-00370-6c7754515cd148d0a3bf3eeedba87d5c.csv` | QuantAQ ML (mobile lab co-location) |
+| `MOD-00371-6da146653d0740789e0af15319122820 (1).csv` | QuantAQ CABR |
+| `H2S - trailer-data-2026-06-23 10_42_56 (2).csv` | H₂S Teledyne T101, Nestor trailer |
+| `H2S - coast-data-2026-06-23 10_43_35 (1).csv` | H₂S Teledyne T101, coastal site |
+| `BulkExport-11013101-20260623234323 (3).csv` | USGS Tijuana River stage (NWIS) |
+| `mlh_solar_extended (2).csv` | Mixing layer height + solar radiation |
 
 ### Processed outputs
 
