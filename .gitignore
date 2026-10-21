@@ -1,6 +1,5 @@
 # Raw data files (too large for git; see README for file list)
 data/raw/
-*.csv
 !data/processed/.gitkeep
 
 # Figure outputs
